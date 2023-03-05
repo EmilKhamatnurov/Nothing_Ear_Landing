@@ -107,8 +107,6 @@ body {
 	gap: 30px;
 }
 
-.item__icon {}
-
 .item__button {
 	color: #FFFFFF;
 	font-weight: 400;
@@ -182,8 +180,6 @@ body {
 
 }
 
-.function__description {}
-
 .crear-voice {
 	background: url(../resources/woman-image_section-wrapper.png) center center /cover no-repeat;
 	height: 1040px;
@@ -249,8 +245,6 @@ body {
 	gap: 152px;
 }
 
-.social_media__item {}
-
 .social_media__link {
 	font-weight: 700;
 	font-size: 60px;
@@ -277,4 +271,14 @@ body {
 
 	color: #FF25C2;
 
+}
+
+@media (min-width: 1400px) {
+	.social_media__image-wrapper {
+		background: url(../resources/Ears\ image.png) center center /contain no-repeat;
+	}
+
+	.crear-voice {
+		background: url(../resources/woman-image_section-wrapper.png) center center /contain no-repeat;
+	}
 }
