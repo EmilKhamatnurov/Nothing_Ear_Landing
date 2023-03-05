@@ -38,8 +38,6 @@ body {
 	text-transform: uppercase;
 }
 
-.main {}
-
 .intro__title {
 	margin-bottom: 43px;
 	color: #FF25C2;
@@ -55,14 +53,13 @@ body {
 	font-size: 25px;
 	margin: 0 auto;
 	line-height: 30px;
-	margin-bottom: -20px;
+	/* margin-bottom: -20px; */
 }
 
 .intro__image {
 	max-width: 819px;
 	/* z-index: 1; */
 }
-
 
 .shop {
 	margin-top: 70px;
